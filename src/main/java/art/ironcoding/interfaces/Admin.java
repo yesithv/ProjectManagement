@@ -1,7 +1,9 @@
 package art.ironcoding.interfaces;
 
-public interface BeginProject {
+public interface Admin {
 
-    void welcomeMessage();
+    void manageUsers();
+
+    void viewSystemLogs();
 
 }

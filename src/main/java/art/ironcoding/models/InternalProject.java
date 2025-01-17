@@ -1,4 +1,11 @@
 package art.ironcoding.models;
 
-public class InternalProject {
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode(callSuper = true)
+public class InternalProject extends Project{
+
+    private Integer priority;
 }

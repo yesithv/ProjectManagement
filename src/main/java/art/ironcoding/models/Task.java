@@ -1,4 +1,4 @@
-package art.ironcoding.model;
+package art.ironcoding.models;
 
 
 import lombok.Data;

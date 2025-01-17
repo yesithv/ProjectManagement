@@ -1,4 +1,18 @@
 package art.ironcoding.models;
 
-public class AdminUser {
+import art.ironcoding.interfaces.Admin;
+
+
+public class AdminUser extends User implements Admin {
+
+    @Override
+    public void manageUsers() {
+
+    }
+
+    @Override
+    public void viewSystemLogs() {
+
+    }
+
 }

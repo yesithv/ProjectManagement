@@ -1,6 +1,5 @@
-package art.ironcoding.model;
+package art.ironcoding.models;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,13 +12,11 @@ public class Project {
 
     private UUID id;
     private String name;
-    private Integer priority;
     private List<Task> taskList;
 
-    public Project(String name, Integer priority, List<Task> taskList) {
+    public Project(String name, List<Task> taskList) {
         this.id = UUID.randomUUID();
         this.name = name;
-        this.priority = priority;
         this.taskList = taskList;
     }
 

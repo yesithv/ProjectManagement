@@ -1,12 +1,35 @@
-package art.ironcoding.model;
+package art.ironcoding.models;
 
-import art.ironcoding.utils.Seniority;
+import art.ironcoding.interfaces.Customer;
+import art.ironcoding.interfaces.Employee;
 import lombok.Data;
 
-
+/**
+ * User inherits the behaviours of Customer and Employee
+ */
 @Data
-public class User {
+public class User implements Customer, Employee {
 
-    private String name;
-    private Seniority seniority;
+    private String userName;
+    private String password;
+
+    @Override
+    public void placeTask() {
+
+    }
+
+    @Override
+    public void viewTaskHistory() {
+
+    }
+
+    @Override
+    public void clockIn() {
+
+    }
+
+    @Override
+    public void clockOut() {
+
+    }
 }

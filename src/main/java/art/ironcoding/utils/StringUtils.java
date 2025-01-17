@@ -1,4 +1,4 @@
-package art.ironcoding;
+package art.ironcoding.utils;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  *
  * @author Yesith Valencia
  * @email yesithvalencia@gmail.com
- * @celphone: +57 3183973083
+ * @cellphone: +57 3183973083
  */
 public class StringUtils {
 
