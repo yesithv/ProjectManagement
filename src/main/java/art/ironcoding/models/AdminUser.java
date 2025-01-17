@@ -6,13 +6,9 @@ import art.ironcoding.interfaces.Admin;
 public class AdminUser extends User implements Admin {
 
     @Override
-    public void manageUsers() {
+    public void adminManageUsers() {
 
     }
 
-    @Override
-    public void viewSystemLogs() {
-
-    }
 
 }

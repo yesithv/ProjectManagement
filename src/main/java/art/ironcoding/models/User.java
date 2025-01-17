@@ -14,22 +14,13 @@ public class User implements Customer, Employee {
     private String password;
 
     @Override
-    public void placeTask() {
+    public void customerPlaceTask() {
 
     }
 
     @Override
-    public void viewTaskHistory() {
+    public void employeeClockIn() {
 
     }
 
-    @Override
-    public void clockIn() {
-
-    }
-
-    @Override
-    public void clockOut() {
-
-    }
 }
